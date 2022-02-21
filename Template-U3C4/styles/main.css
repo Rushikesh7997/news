@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+  }
+  #sidebar{
+    flex: 2;
+    border: solid black 1px;
+  }
+  #main{
+    /* align-items: center; */
+    text-align: center;
+    border: solid black 1px;
+    flex: 8;
+  }
+  #main>div{
+   border: solid 1px black;
+  }
+  img{
+    width: 300px;
+    
+  }
